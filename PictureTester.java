@@ -59,6 +59,13 @@ public class PictureTester
     swan.explore();
   }
   
+  public static void testEdgeDetection2()
+  {
+    Picture swan = new Picture("swan.jpg");
+    swan.edgeDetection2(10);
+    swan.explore();
+  }  
+  
   public static void testKeepOnlyBlue() {
       Picture beach = new Picture("beach.jpg");
       beach.keepOnlyBlue();
